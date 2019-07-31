@@ -1,19 +1,12 @@
 def solution(X, A):
-    if X not in A:
-        return -1
+    leaves = set()
+    for second in range(0, len(A)):
+        leaves.add(A[second])
 
-    second = A.index(X)
-    leaves = set(range(1, X))
-    before_second = set(A[:second])
-    upcoming_second = set(A[second+1:])
-    left_leaves = leaves - before_second
-    if not left_leaves:
-        return second
-    else:
-        if not left_leaves - upcoming_second:
-            return max([A.index(leaf) for leaf in left_leaves])
-        else:
-            return - 1
+        if len(leaves) == X:
+            return second
+
+    return -1
 
 
 def test_solution():
