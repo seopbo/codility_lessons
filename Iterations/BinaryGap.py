@@ -1,21 +1,21 @@
 def solution(N):
-    bit_sequence = format(N, 'b')
-    bit_check = []
+    binary_repr = bin(N)[2:]
+    list_of_indices = [idx for idx, value in enumerate(binary_repr) if value == '1']
 
-    for idx, bit in enumerate(bit_sequence):
-        if bit == '1':
-            bit_check.append(idx)
-
-    binary_gap = []
-    for idx in range(1, len(bit_check)):
-        binary_gap.append(bit_check[idx] - bit_check[idx - 1] - 1)
-
-    if not any(binary_gap):
+    if len(list_of_indices) == 1:
         return 0
     else:
-        return max(binary_gap)
+        list_of_indices = [0] + list_of_indices
+        binary_gap = 0
+
+        for index in range(1, len(list_of_indices)):
+            tmp_gap = list_of_indices[index] - list_of_indices[index - 1] - 1
+            if  tmp_gap > binary_gap:
+                binary_gap = tmp_gap
+
+    return binary_gap
 
 
 def test_solution():
     assert solution(32) == 0
-    assert solution(1041) == 5
+
