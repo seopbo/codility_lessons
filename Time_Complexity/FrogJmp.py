@@ -1,9 +1,10 @@
 def solution(X, Y, D):
-    quotient, remainder = divmod(Y - X, D)
-    if remainder == 0:
-        return quotient
+    quoient, remainder = divmod(Y-X, D)
+
+    if remainder > 0:
+        return quoient + 1
     else:
-        return quotient + 1
+        return quoient
 
 
 def test_solution():

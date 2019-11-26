@@ -2,16 +2,19 @@ import sys
 
 
 def solution(A):
-    sum_left = 0
-    sum_right = sum(A)
-    min_diff = sys.maxsize
 
-    for i in range(len(A)-1):
-        sum_left += A[i]
-        sum_right -= A[i]
-        min_diff = min(min_diff, abs(sum_left - sum_right))
+    difference = sys.maxsize
+    left = 0
+    right = sum(A)
 
-    return min_diff
+    for i in range(0, len(A)-1):
+        left += A[i]
+        right -= A[i]
+
+        if abs(right - left) < difference:
+            difference = abs(right - left)
+
+    return difference
 
 
 def test_solution():
