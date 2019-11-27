@@ -7,7 +7,7 @@ def solution(S):
     stack = []
 
     for char in S:
-        print(char)
+
         if not stack:
             stack.append(char)
         elif stack[-1] == char:
@@ -16,5 +16,3 @@ def solution(S):
             stack.append(char)
 
     return ''.join(stack)
-
-
