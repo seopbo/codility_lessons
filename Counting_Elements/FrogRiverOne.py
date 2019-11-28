@@ -1,9 +1,11 @@
 def solution(X, A):
-    leaves = set()
-    for second in range(0, len(A)):
-        leaves.add(A[second])
+    leaves = set(range(1, X+1))
 
-        if len(leaves) == X:
+    for second, leaf in enumerate(A):
+        if leaf in leaves:
+            leaves.remove(leaf)
+
+        if not leaves:
             return second
 
     return -1
@@ -11,3 +13,5 @@ def solution(X, A):
 
 def test_solution():
     assert solution(5, [1, 3, 1, 4, 2, 3, 5, 4]) == 6
+
+

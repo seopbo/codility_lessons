@@ -5,7 +5,6 @@ def solution(A, K):
 
     if len(A) == K:
         return A
-
     elif len(A) > K:
         return A[-K:] + A[:-K]
     else:
