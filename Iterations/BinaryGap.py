@@ -10,7 +10,7 @@ def solution(N):
 
         for index in range(1, len(list_of_indices)):
             tmp_gap = list_of_indices[index] - list_of_indices[index - 1] - 1
-            if  tmp_gap > binary_gap:
+            if tmp_gap > binary_gap:
                 binary_gap = tmp_gap
 
     return binary_gap
@@ -18,4 +18,4 @@ def solution(N):
 
 def test_solution():
     assert solution(32) == 0
-
+    assert solution(529) == 4
