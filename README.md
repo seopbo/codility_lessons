@@ -15,4 +15,8 @@
 | [GenomicRangeQuery](https://app.codility.com/programmers/lessons/5-prefix_sums/genomic_range_query/) | Prefix Sums | respectable | |
 | [MinAvgTwoSlice](https://app.codility.com/programmers/lessons/5-prefix_sums/min_avg_two_slice/) | Prefix Sums | respectable | |
 | [CountDiv](https://app.codility.com/programmers/lessons/5-prefix_sums/count_div/) | Prefix Sums | respectable | [A](https://github.com/aisolab/codility_lessons/blob/master/Prefix_Sums/CountDiv.py) |
+| [Brackets](https://app.codility.com/programmers/lessons/7-stacks_and_queues/brackets/) | Stacks and Queues | painless | [A](https://github.com/aisolab/codility_lessons/blob/master/Stacks_and_Queues/Brackets.py) |
+| [Fish](https://app.codility.com/programmers/lessons/7-stacks_and_queues/fish/) | Stacks and Queues | painless | [A](https://github.com/aisolab/codility_lessons/blob/master/Stacks_and_Queues/Fish.py) |
+| [Nesting](https://app.codility.com/programmers/lessons/7-stacks_and_queues/nesting/) | Stacks and Queues | painless | [A](https://github.com/aisolab/codility_lessons/blob/master/Stacks_and_Queues/Nesting.py) |
+| [StoneWall](https://app.codility.com/programmers/lessons/7-stacks_and_queues/stone_wall/) | Stacks and Queues | painless | [A](https://github.com/aisolab/codility_lessons/blob/master/Stacks_and_Queues/StoneWall.py) |
 
