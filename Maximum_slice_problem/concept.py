@@ -1,7 +1,7 @@
 from sys import maxsize
 
 
-def maxSubArraySum(a):
+def golden_max_slice(a): # kadane algorithm
     max_so_far = -maxsize - 1
     max_ending_here = 0
 
