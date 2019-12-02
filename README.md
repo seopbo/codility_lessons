@@ -10,5 +10,5 @@
 | [PermCheck](https://app.codility.com/programmers/lessons/4-counting_elements/perm_check/) | Counting Elements |    painless | [A](https://github.com/aisolab/codility_lessons/blob/master/Counting_Elements/PermCheck.py)                                                            |
 | [FrogRiverOne](https://app.codility.com/programmers/lessons/4-counting_elements/frog_river_one/) | Counting Elements |    painless | [A](https://github.com/aisolab/codility_lessons/blob/master/Counting_Elements/FrogRiverOne.py)                                                            |
 | [MaxCounters](https://app.codility.com/programmers/lessons/4-counting_elements/max_counters/) | Counting Elements | respectable | [A](https://github.com/aisolab/codility_lessons/blob/master/Counting_Elements/MaxCounters.py)                                                            |
-| [MissingInteger](https://app.codility.com/programmers/lessons/4-counting_elements/missing_integer/) |  Missing Integer  | respectable |                                                              |
+| [MissingInteger](https://app.codility.com/programmers/lessons/4-counting_elements/missing_integer/) |  Counting Elements  | respectable |                                                              |
 
