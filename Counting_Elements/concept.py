@@ -7,6 +7,10 @@ def counting(A, m):
     return count
 
 
+A = [0, 0, 4, 2, 4, 5]
+print(counting(A, 5))
+
+
 def solution(A, B, m):
     n = len(A)
     sum_a = sum(A)
