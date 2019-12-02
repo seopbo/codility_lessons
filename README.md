@@ -11,4 +11,8 @@
 | [FrogRiverOne](https://app.codility.com/programmers/lessons/4-counting_elements/frog_river_one/) | Counting Elements |    painless | [A](https://github.com/aisolab/codility_lessons/blob/master/Counting_Elements/FrogRiverOne.py)                                                            |
 | [MaxCounters](https://app.codility.com/programmers/lessons/4-counting_elements/max_counters/) | Counting Elements | respectable | [A](https://github.com/aisolab/codility_lessons/blob/master/Counting_Elements/MaxCounters.py)                                                            |
 | [MissingInteger](https://app.codility.com/programmers/lessons/4-counting_elements/missing_integer/) |  Counting Elements  | respectable |                                                              |
+| [PassingCars](https://app.codility.com/programmers/lessons/5-prefix_sums/passing_cars/) | Prefix Sums | painless | [A](https://github.com/aisolab/codility_lessons/blob/master/Prefix_Sums/PassingCars.py) |
+| [GenomicRangeQuery](https://app.codility.com/programmers/lessons/5-prefix_sums/genomic_range_query/) | Prefix Sums | respectable | |
+| [MinAvgTwoSlice](https://app.codility.com/programmers/lessons/5-prefix_sums/min_avg_two_slice/) | Prefix Sums | respectable | |
+| [CountDiv](https://app.codility.com/programmers/lessons/5-prefix_sums/count_div/) | Prefix Sums | respectable | [A](https://github.com/aisolab/codility_lessons/blob/master/Prefix_Sums/CountDiv.py) |
 
