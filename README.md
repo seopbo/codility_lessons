@@ -19,4 +19,7 @@
 | [Fish](https://app.codility.com/programmers/lessons/7-stacks_and_queues/fish/) | Stacks and Queues | painless | [A](https://github.com/aisolab/codility_lessons/blob/master/Stacks_and_Queues/Fish.py) |
 | [Nesting](https://app.codility.com/programmers/lessons/7-stacks_and_queues/nesting/) | Stacks and Queues | painless | [A](https://github.com/aisolab/codility_lessons/blob/master/Stacks_and_Queues/Nesting.py) |
 | [StoneWall](https://app.codility.com/programmers/lessons/7-stacks_and_queues/stone_wall/) | Stacks and Queues | painless | [A](https://github.com/aisolab/codility_lessons/blob/master/Stacks_and_Queues/StoneWall.py) |
+| [MaxProfit](https://app.codility.com/programmers/lessons/9-maximum_slice_problem/max_profit/) | Maximum slice problem | painless | [A](https://github.com/aisolab/codility_lessons/blob/master/Maximum_slice_problem/MaxProfit.py) |
+| [MaxSliceSum](https://app.codility.com/programmers/lessons/9-maximum_slice_problem/max_slice_sum/) | Maximum slice problem | painless | [A](https://github.com/aisolab/codility_lessons/blob/master/Maximum_slice_problem/MaxSliceSum.py) |
+| [MaxDoubleSliceSum](https://app.codility.com/programmers/lessons/9-maximum_slice_problem/max_double_slice_sum/) | Maximum slice problem | respectable |  |
 
