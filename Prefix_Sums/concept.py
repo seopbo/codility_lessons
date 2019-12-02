@@ -4,6 +4,7 @@ def prefix_sums(A):
 
     for k in range(1, n + 1):
         P[k] = P[k - 1] + A[k - 1]
+
     return P
 
 
@@ -18,6 +19,7 @@ def suffix_sums(A):
 
 def count_total(P, x, y):
     return P[y + 1] - P[x]
+
 
 # k spot
 # m number of steps

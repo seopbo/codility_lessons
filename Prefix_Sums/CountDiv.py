@@ -24,4 +24,4 @@ def solution(A, B, K):
 
 
 def test_solution():
-    assert solution(6, 11, 2) ==3
+    assert solution(6, 11, 2) == 3
